@@ -1,0 +1,37 @@
+mkdir Vrissca
+cd vrissca/
+mkdir sekolah
+mkdir kerja
+cd sekolah/
+touch ijazah.txt
+nano ijazah.txt
+perkenalkan namaku Vrissca Ayu Kinanti 
+aku berasal dari kota Cimahi 
+salam kenal :D
+(ctrl x, y, enter)
+touch portofolio.txt
+nano portofolio.txt
+saya pernah bekerja pada beberapa perusahaan salah satu diantaranya ialah 
+-samsung
+-polytron
+-lintas arta
+(ctrl x, y, enter)
+cd ..
+cd kerja/
+touch cv.txt
+nano cv.txt
+salam,
+perkenalkan namaku Vrissca, saya memiliki kegemaran 
+-memasak
+-membaca
+-olahraga
+(ctrl x, y, enter)
+cd ..
+cd sekolah/
+mv portofolio.txt kerja
+ls
+ijazah.txt
+cd ..
+cd kerja/
+ls
+portofolio.txt cv.txt
